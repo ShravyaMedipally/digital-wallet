@@ -1,0 +1,70 @@
+/* 🌈 Background & Layout */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🧭 Login Card */
+.login-box {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+  width: 320px;
+  text-align: center;
+}
+
+/* 📝 Title */
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #2d3436;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* 🧩 Inputs */
+.login-box input {
+  width: 100%;
+  padding: 10px 14px;
+  margin: 10px 0;
+  border: 1px solid #dcdde1;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.login-box input:focus {
+  border-color: #0984e3;
+  box-shadow: 0 0 5px rgba(9, 132, 227, 0.4);
+  outline: none;
+}
+
+/* 🔘 Button */
+.login-box button {
+  width: 100%;
+  background-color: #0984e3;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #74b9ff;
+}
+
+/* 💬 Tagline */
+.tagline {
+  color: #636e72;
+  font-size: 0.9rem;
+  margin-top: 12px;
+}

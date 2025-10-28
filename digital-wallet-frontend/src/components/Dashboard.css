@@ -1,0 +1,109 @@
+/* 🌈 Background */
+.dashboard-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #81ecec, #74b9ff);
+  font-family: "Poppins", sans-serif;
+}
+
+/* 💼 Card Box */
+.dashboard-box {
+  background: #ffffff;
+  padding: 50px 40px;
+  border-radius: 18px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 400px;
+  animation: fadeIn 0.7s ease-in;
+}
+
+/* 🔤 Title */
+.dashboard-box h1 {
+  color: #2d3436;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* 🧩 Buttons Layout */
+.button-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* 🔘 Buttons */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 🎨 Button Colors */
+.btn-blue {
+  background-color: #0984e3;
+}
+.btn-blue:hover {
+  background-color: #74b9ff;
+}
+
+.btn-green {
+  background-color: #00b894;
+}
+.btn-green:hover {
+  background-color: #55efc4;
+}
+
+.btn-purple {
+  background-color: #6c5ce7;
+}
+.btn-purple:hover {
+  background-color: #a29bfe;
+}
+
+/* ✨ Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* 🔐 Logout Button */
+.logout-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #d63031;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.logout-btn:hover {
+  background-color: #ff7675;
+}
+
